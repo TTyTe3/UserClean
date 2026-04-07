@@ -14,7 +14,7 @@ class SchoolPCCleaner:
         self.root.geometry("850x700")
         self.root.minsize(800, 650)
         self.root.resizable(True, True)
-        self.protected_users = ['учитель', 'ученик', 'admin', 'всош', 'olymp', 'user', 'alext','all users','все пользователи']     
+        self.protected_users = ['учитель', 'ученик', 'admin', 'всош', 'olymp', 'user', 'alext','all users','все пользователи',"Робокласс"]     
         self.cleanup_threshold = 0.75 * 1024**3  
         self.scan_results = {}
         self.setup_ui()
